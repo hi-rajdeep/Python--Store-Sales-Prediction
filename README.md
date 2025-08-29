@@ -1,57 +1,57 @@
-🏬 Store Sales Prediction
+🏬 **Store Sales Prediction**
 
 This project is about predicting weekly sales for different stores using past data and machine learning.
 The goal is to help stores plan better – for example, how much stock to keep, when to run promotions, and how to improve revenue.
 ------------------------------------------------------------------------------------------------------------------------------------------
 
-📌 What This Project Does
+📌 **About the Project **
 
-Looks at past sales, store details, holidays, promotions, and economy data.
+- Looks at past sales, store details, holidays, promotions, and economy data.
 
-Cleans the data (fills missing values, handles outliers).
+- Cleans the data (fills missing values, handles outliers).
 
-Finds patterns with charts and statistics.
+- Finds patterns with charts and statistics.
 
-Trains machine learning models to predict sales.
+- Trains machine learning models to predict sales.
 
-Chooses the best model (XGBoost) because it gave the most accurate results.
+- Chooses the best model (XGBoost) because it gave the most accurate results.
 ------------------------------------------------------------------------------------------------------------------------------------------
 
-🛠️ Tools Used
+🛠️ **Tools Used**
 
-Python 🐍
+- Python 🐍
 
-Pandas & NumPy → for handling data
+- Pandas & NumPy → for handling data
 
-Matplotlib & Seaborn → for graphs and charts
+- Matplotlib & Seaborn → for graphs and charts
 
-Scikit-learn & XGBoost → for building prediction models
+- Scikit-learn & XGBoost → for building prediction models
 
-Jupyter Notebook → for running everything step by step
+- Jupyter Notebook → for running everything step by step
 ------------------------------------------------------------------------------------------------------------------------------------------
 
-🔎 Steps in the Project
+🔎 **Steps in the Project**
 
-Understand the Data → check what each column means.
+- Understand the Data → check what each column means.
 
-Clean the Data → fix missing values and outliers.
+- Clean the Data → fix missing values and outliers.
 
-EDA (Exploratory Data Analysis) → make graphs to see patterns.
+- EDA (Exploratory Data Analysis) → make graphs to see patterns.
 
-Feature Engineering → create new useful columns (like holidays, rolling averages).
+- Feature Engineering → create new useful columns (like holidays, rolling averages).
 
-Model Training → test different machine learning models.
+- Model Training → test different machine learning models.
 
-Choose Best Model → XGBoost worked best (lowest error, highest accuracy).
+- Choose Best Model → XGBoost worked best (lowest error, highest accuracy).
 ------------------------------------------------------------------------------------------------------------------------------------------
 
-🏆 Key Results
+🏆 **Key Results**
 
-Holidays increase sales a lot.
+- Holidays increase sales a lot.
 
-Bigger stores generally sell more.
-------------------------------------------------------------------------------------------------------------------------------------------
+- Bigger stores generally sell more.
 
-Discounts help, but not always strongly.
+- Discounts help, but not always strongly.
 
-Final model (XGBoost) gives accurate weekly sales forecasts.
+- Final model (XGBoost) gives accurate weekly sales forecasts.
+------------------------------------------------------------------------------------------------------------------------------------------  
